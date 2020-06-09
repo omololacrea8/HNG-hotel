@@ -1,0 +1,203 @@
+body{
+    padding:0;
+    margin:0;
+    font-family:"Public Sans";
+    font-size:14px;
+    background-color:#fdfdfd;
+    }
+.head0{
+    display:flex;
+    justify-content:space-between;
+    padding:10px 20px;
+    font-size:20px;
+    align-items:center;
+    font-weight:700;
+    }
+.span{
+    color:orange;
+    }
+.span1{
+    font-family:cursive;
+    }
+.ham{
+    font-size:23px;
+    }
+.drop{
+    width:0;
+    height:0;
+    overflow: hidden;
+    transition:height .7s ease;
+    }
+.drop > div{
+    text-align: center;
+    padding:20px;
+    }
+.book{
+    width:max-content;
+    margin:auto;
+    }
+.one{
+    padding:10px 20px;
+    margin:3pc auto 2pc auto;
+    }
+.myone{
+    margin:3pc auto 2pc 0pc;
+}
+.topic{
+    font-size:30px;
+    font-weight:700;
+    }
+.one0{
+    margin:3pc auto 2pc auto;
+    }
+.head1{
+    font-weight:700;
+    }
+.two{				
+    margin:3pc auto 2pc auto;
+    padding:10px 20px;
+    }
+.input01{
+    width:90%;
+    display:block;
+    padding:15px;
+    margin:auto auto 1.2pc 0pc;
+    border-radius:5px;
+    border:1.2px solid #ddcc00;
+    background-color:#fff;
+    }
+.input02{
+    background-color:#fff;
+    padding:15px;
+    width:90%;
+    height:100px;
+    border-radius:5px;
+    border:1.2px solid #ddcc00;
+    margin:auto auto 1.2pc 0pc;
+    }
+button{
+    padding:12px 35px;
+    text-align:center;
+    border-radius:5px;
+    border:0px solid;
+    background-color:orange;
+    color:#fff;
+    outline:none;
+    }
+button:focus{
+    border:1px solid red;
+    }
+footer{
+    padding:10px 20px;
+    background-color:#111;
+    margin:4pc auto 0pc auto;
+    color:#f4f4f4;
+    }
+.name{
+    font-size:20px;
+    font-weight:700;
+  }
+.handles{
+    display:flex;
+    width:50%;
+    justify-content: space-between;
+    margin:1pc auto 5pc 0pc;
+    }
+.send1{
+    background-color:#eeee00;
+    color:#111;
+    }
+.news{
+    display:flex;
+    }
+.input001{
+    padding:12px;
+    }
+.dflex11{
+    margin:2pc auto;
+    }
+.dflex11 > section > div{
+    padding:7px 0px;
+    }
+.notflex1{
+    margin:auto;
+    width:max-content;
+    }
+.notflex1 > div{
+    padding:7px 0px;
+    }
+.header_image{
+    width:auto;
+    height:auto;
+    background-image:url(img/Rectangle1.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    color:#fff;
+    }
+.locate{
+    height:20vmax;
+    width:100%;
+    background-image:url(img/Rectangle2.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+hr{
+    width:45%;
+    margin-left:0pc;
+    }
+
+
+
+@media(min-width:768px){
+.ham{
+    display:none;
+    }
+.drop{
+    width:auto;
+    height:auto;
+    display:flex;
+    align-items:center;
+    }
+header{
+    display:flex;
+    justify-content: space-between;
+    padding:0% 7%;
+    align-items:center;
+    }
+.one{
+    width:40%;
+    }
+.two{
+    width:50%;
+    }
+.myflex1{
+    display:flex;
+    padding:0% 15%;
+    align-items: stretch;
+    }
+.myflex0{
+    padding:0% 7%;
+    }
+footer{
+    padding:3% 0%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    }
+.drop .book{
+    background-color:orange;
+    width:max-content;
+    margin:auto;
+    padding:15px 25px;
+    color:#f4f4f4;
+    }		
+.myflex4{
+    display:flex;
+    justify-content: space-between;
+    width:94%;
+    }		
+.myflex4 > div{
+    width:46%;
+    }	
+}
+
